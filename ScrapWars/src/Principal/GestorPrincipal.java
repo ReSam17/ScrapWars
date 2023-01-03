@@ -21,7 +21,7 @@ public class GestorPrincipal{
     }
     public static void main(String[] args) throws Exception {
         
-        GestorPrincipal GP=new GestorPrincipal("Scrap End", 640,360);
+        GestorPrincipal GP=new GestorPrincipal("Scrap Wars", 640,360);
 
         GP.iniciarBuclePrincipal();
         GP.iniciarJuego();

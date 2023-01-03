@@ -10,12 +10,14 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import Principal.maquinaestado.estados.juego.GestorDeJuego;
+
 public class CargadorDeRecursos {
     
     public static BufferedImage cargarImagenCompatibleOpaca(final String ruta){
         Image imagen = null;
         try {
-            imagen = ImageIO.read(ClassLoader.class.getResource(ruta));
+            imagen = ImageIO.read(GestorDeJuego.class.getResource(ruta));
         } catch (IOException e) {
             e.printStackTrace();
         }

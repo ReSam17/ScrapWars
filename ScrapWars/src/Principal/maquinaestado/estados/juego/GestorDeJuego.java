@@ -9,7 +9,7 @@ import Principal.sprites.HojasDeSprites;
 public class GestorDeJuego implements EstadoJuego{
 
     private GestorDelMapa gestorMapa; 
-    HojasDeSprites hs = new HojasDeSprites("/data/Imagenes/HojasSprite/HojaTexturas/ScrapCity.png", 32, true);
+    HojasDeSprites hs = new HojasDeSprites("/Imagenes/HojaTexturas/ScrapCity.png", 32, true);
 
     
     @Override
